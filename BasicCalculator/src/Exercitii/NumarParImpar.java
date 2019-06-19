@@ -1,19 +1,21 @@
 
 package Exercitii;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class NumarParImpar{
-	public static void main (String [] args){
-        int b=0;
-		Scanner par = new Scanner(System.in);
-		System.out.println("Cite cifre Pare doriti sa afisati ? ");
-		int num = par.nextInt();	
+	public int numarPar(int num){
+            int b=0;	
 		  for(int i = 1; b < num; i++){
 		    if(i % 2 == 0){
 		    b++;
 		System.out.print(i +"  "); 
-     }
-   }
-        System.out.println();
+     
+   
+       
+        }}
+        return num; 
+        }
+}
+       /* System.out.println();
         int q=0;
 		Scanner imp = new Scanner(System.in);
 		System.out.println("Cite cifre Impare doriti sa afisati ? ");
@@ -23,6 +25,5 @@ public class NumarParImpar{
 		    q++;
 		System.out.print(i +"  "); 
    }
- }
- }
-}
+ }*/
+ 

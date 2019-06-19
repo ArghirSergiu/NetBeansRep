@@ -20,4 +20,14 @@ public class Patrat_Dreptunghi{
        System.out.println("Aria dreptunghiului este : "+a*b);
 
 	}
+        public  int perimetruPat(int lat){
+        return 4* lat;
+        }
+        public  int ariaPat(int lat){
+        return lat * lat;
+        }
+        public  int ariaDrep(int a,int b){
+        return a * b;}
+        public  int perimetruDrep(int a,int b){
+        return 2*(a+b);}
 }

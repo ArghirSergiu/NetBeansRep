@@ -12,5 +12,8 @@ public class SumaNumere{
      System.out.println("Suma numerelor "+a+" si "+b+"  este = "+(a+b));
 
 	}
+        public int suma (int x,int y){
+            return x+y;
+        }
 }
 
